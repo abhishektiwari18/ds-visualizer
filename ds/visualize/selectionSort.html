@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<title>Selection Sort</title>
+<meta content="" name="descriptison">
+<meta content="" name="keywords">
+
+<!-- Favicons -->
+<link href="/ds-visualizer/ds/img/adk.jpg" rel="icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="/ds-visualizer/ds/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="/ds-visualizer/ds/css/animate.css/animate.min.css" rel="stylesheet">
+<link href="/ds-visualizer/ds/css/venobox/venobox.css" rel="stylesheet">
+<link href="/ds-visualizer/ds/css/font-awesome/font-awesome.min.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="/ds-visualizer/ds/css/style.css" rel="stylesheet">
+<link href="/ds-visualizer/ds/css/index/index.css" rel="stylesheet">
+<link href="/ds-visualizer/ds/css/modal/popupModal.css" rel="stylesheet" type="text/css" >
+
+<link rel="stylesheet" href="/ds-visualizer/ds/css/visualize/range.css">
+
+<script src="/ds-visualizer/ds/js/sorting/selectionSort.js"></script>
+
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="headerVisualize">
+<div class="container">
+
+<div id="logo" class="pull-left">
+
+<h1><a href="/ds-visualizer/ds/index.html">DS<span> Visualizer</span></a></h1>
+<!--  <a href="index.html" class="scrollto"><img src="/ds/img/logo.png" alt="" title=""></a>-->
+</div>
+
+<nav id="nav-menu-container">
+<ul class="nav-menu">
+<li class="buy-tickets"><a href="/ds-visualizer/ds/index.html">HOME</a></li>
+</ul>
+</nav><!-- #nav-menu-container -->
+</div>
+</header><!-- End Header -->
+
+<section id="sortings" class="section-with-bg wow fadeInUp">
+<div class="container">
+<div class="section-header">
+<br><br><br><br>
+<h2>Selection Sort</h2>
+</div>
+<div class="row">
+<div class="col-lg-4 col-md-6">
+
+
+<div class="input-group mb-3">
+<input type="text" class="form-control" name='elements' id="elements" value=9,8,7,6,5,4,3,2,1  placeholder="Enter Elements" aria-label="Enter elements" aria-describedby="elememts">
+<div class="input-group-append">
+<button type="button" class="btn btn-primary" id='sorting' data-toggle="tooltip" title="Sorting" onclick='initialize()' name='sorting'>Sorting</button>
+</div>
+</div>
+
+</div><!--column-->
+
+<div class="col-lg-4 col-md-6">
+<label for="play" style="margin-left:40px;padding-top:5px;font-size:20px">Play</label>
+<button class="play btn btn-secondary" id="play" data-toggle="tooltip" title="Play" style="margin-left:20px"><img src="/ds-visualizer/ds/img/play.png" height="30px"></button>
+<label for="pause" style="margin-left:30px;padding-top:5px;font-size:20px">Pause</label>
+<button class="pause btn btn-secondary" id="pause" data-toggle="tooltip" title="Pause" style="margin-left:20px"><img src="/ds-visualizer/ds/img/pause.png" height="30px"></button>
+
+
+</div><!--column-->
+
+
+
+<div class="col-lg-4 col-md-6">
+<label for="myRange" id="range">Speed</label>
+	
+<input type="range" min="1" max="100" name="myRange" id="myRange" value="80">
+
+
+
+</div><!--column-->
+
+</div><!--row-->
+
+
+</div><!--container-->
+</section><!-- End Section -->
+
+
+
+
+
+<main id="main">
+<canvas height='495px' width='1180px' id='canvas'>
+
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+<div class="container">
+<div class="copyright">
+&copy; Copyright <strong>DS-Visualizer</strong>. All Rights Reserved
+</div>
+
+<div class="credits">
+Designed by ADK
+</div>
+</div>
+</footer><!-- End  Footer -->
+
+<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="/ds-visualizer/ds/jquery/jquery.min.js"></script>
+  <script src="/ds-visualizer/ds/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="/ds-visualizer/ds/js/jquery.easing/jquery.easing.min.js"></script>
+  <script src="/ds-visualizer/ds/js/wow/wow.min.js"></script>
+  <script src="/ds-visualizer/ds/css/venobox/venobox.min.js"></script>
+  <script src="/ds-visualizer/ds/css/superfish/superfish.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/ds-visualizerssss/ds/js/main.js"></script>
+
+</body>
+
+</html>

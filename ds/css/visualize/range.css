@@ -1,0 +1,40 @@
+#range{
+z-index: 1; 
+left: -3px; 
+top: 5px;
+font-size:20px; 
+position: absolute; 
+}
+
+#myRange{
+margin-left:45px;
+}
+
+input[type=range]{ 
+    -webkit-appearance: none;
+    overflow: hidden;
+    height: 40px;
+    width: 280px;
+    cursor: pointer;
+}
+::-webkit-slider-runnable-track {
+    background: #ddd;
+}
+::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 40px;
+    background: #fff;
+    box-shadow: -100vw 0 0 100vw dodgerblue;
+    border: 2px solid #999;
+}
+
+
+#canvas{
+border:2px solid black;
+margin-top:10px;
+margin-left:20px;
+height:50%;
+width:90%;
+
+}
